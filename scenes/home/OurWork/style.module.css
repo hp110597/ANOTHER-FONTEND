@@ -1,0 +1,50 @@
+.ourWork{
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.container{
+    margin: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.leftBox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.rightBox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+}
+.verticalLine{
+    height: 20%;
+    border-right: 1px solid #000000;
+}
+.rightBox:hover .verticalLine{
+    border-right: 3px solid #834997;
+}
+.leftBox:hover  .verticalLine{
+    border-right: 3px solid #834997;
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    margin: 10px 0;
+}
+.list{
+    margin: 10px 0;
+}
